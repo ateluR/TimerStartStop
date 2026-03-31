@@ -6,40 +6,49 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#CAC0C0">
 
     <TextView
         android:id="@+id/textViewCzas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:text="00:00:00"
-        android:textSize="64sp" />
+        android:textSize="64sp"
+        android:textColor="@color/black"
+        android:background="@color/white"/>
 
     <Button
         android:id="@+id/buttonStart"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Start" />
+        android:text="Start"
+        android:backgroundTint="#4AE414"/>
 
     <Button
         android:id="@+id/buttonStop"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Stop" />
+        android:text="Stop"
+        android:backgroundTint="#E41414"/>
 
     <Button
         android:id="@+id/buttonReset"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Reset" />
+        android:text="Reset"
+        android:backgroundTint="#1475E4"/>
 
     <Button
         android:id="@+id/buttonZapisz"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Zapisz" />
+        android:text="Zapisz"
+        android:backgroundTint="#E4D314"/>
 
     <ListView
+        android:id="@+id/listviewCzasy"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>

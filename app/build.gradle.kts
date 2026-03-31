@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.onaar.timerstartstop"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.onaar.timerstartstop"
